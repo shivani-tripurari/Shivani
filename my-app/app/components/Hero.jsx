@@ -12,6 +12,7 @@ import pixHeart from '../assets/heartsLogo.svg';
 import Infinite from './Infinite.jsx';
 import Skills from './Skills.jsx';
 import Services from './Services.jsx';
+import Intro from './Intro.jsx';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -57,6 +58,7 @@ const Hero = () => {
         </div>
           
     </div>
+    <Intro/>
     <Infinite/>  
     <Skills/>
     <Services/>
