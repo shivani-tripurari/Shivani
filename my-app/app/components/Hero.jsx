@@ -14,10 +14,10 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <>
-    <div  >
+    <div>
         <Navbar/>
         
-        <div>
+        <div >
         <motion.div
          className="absolute h:4 w:4 md:h-20 md:w-20 lg:h-40 lg:w-40 left-[28vh] top-[24vh] 
       md:left-[25vh] md:top-[8vh]   
