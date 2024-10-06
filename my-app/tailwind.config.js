@@ -8,11 +8,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'cursive': ["Pacifico", 'cursive']
+        'cursiveF': ["Pacifico", 'cursive']
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      boxShadow: {
+        'custom-black': '#febe0f 5px 5px, #ffa4bf 10px 10px, #fe6622 15px 15px, #4580b2 20px 20px, #0aa56b 25px 25px',
       },
       backgroundImage: theme => ({
         'custom-image': "url('../app/assets/bg.svg')",
