@@ -21,3 +21,16 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 1px white;
+  }
+  .font-outline-1 {
+    -webkit-text-stroke: 1px #b12435;
+  }
+}
+
+h2{
+  font-family: "Space Grotesk", system-ui;
+}

@@ -9,6 +9,9 @@ import dribble from '../assets/dLogo.svg';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 import pixHeart from '../assets/heartsLogo.svg';
+import Infinite from './Infinite.jsx';
+import Skills from './Skills.jsx';
+import Services from './Services.jsx';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -52,8 +55,11 @@ const Hero = () => {
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">ux designer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">finance enthusiast</h3>
         </div>
-        
+          
     </div>
+    <Infinite/>  
+    <Skills/>
+    <Services/>
     </>
   )
 }

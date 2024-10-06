@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: theme => ({
+        'custom-image': "url('../app/assets/bg.svg')",
+        // add more images as needed
+      })
     },
   },
   plugins: [],
