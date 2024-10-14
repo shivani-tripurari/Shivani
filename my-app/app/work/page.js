@@ -19,15 +19,15 @@ const WorkPAge = () => {
       <div className='flex flex-col justify-center items-center'>
         <h1 className="pb-3 text-3xl md:text-3xl lg:text-5xl text-white font-bold mt-20 md:mt-12 lg:mt-4">What do I do?</h1>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
-            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I develop websites using the <span className="text-white">MERN stack</span> and craft <span className="text-white">beautiful and functional frontend experiences</span> using <span className="text-white">React Js, Next Js, TailwindCSS.</span> I'm also a proficient <span className='text-white'>JavaScript</span> developer.</h3>
+            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I develop websites using the <span className="text-white">MERN stack</span> and craft <span className="text-white">beautiful and functional frontend experiences</span> using <span className="text-white">React Js, Next Js, TailwindCSS.</span> I am also a proficient <span className='text-white'>JavaScript</span> developer.</h3>
             <Image src={web} className=' mt-4 h-44 w-80 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
           </div>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
-            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I design and protoype websites, mobile apps using <span className="text-white">Figma,</span> I have used some design tools like <span className="text-white">Adobe Illustrator, Canva, Flutter Flow</span>, etc. With an eye for <span className="text-white">designing</span> I'm dedicated to create <span className='text-white'>smooth and intutive User-experiences</span>.</h3>
+            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I design and protoype websites, mobile apps using <span className="text-white">Figma,</span> I have used some design tools like <span className="text-white">Adobe Illustrator, Canva, Flutter Flow</span>, etc. With an eye for <span className="text-white">designing</span> I am dedicated to create <span className='text-white'>smooth and intutive User-experiences</span>.</h3>
             <Image src={des} className=' mt-4 h-44 w-80 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
           </div>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
-            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>The <span className='text-white'>user experience</span> of a product can make or break a <span className='text-white'>business</span>. I’m passionate about <span className='text-white'>writing case studies</span> and analyzing companies and their products to identify areas for improvement, refining those insights into actionable solutions that <span className='text-white'>elevate both user satisfaction and business success</span>. </h3>
+            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>The <span className='text-white'>user experience</span> of a product can make or break a <span className='text-white'>business</span>. I am passionate about <span className='text-white'>writing case studies</span> and analyzing companies and their products to identify areas for improvement, refining those insights into actionable solutions that <span className='text-white'>elevate both user satisfaction and business success</span>. </h3>
             <Image src={ux} className=' mt-4 h-44 w-80 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
           </div>
       </div>
@@ -36,7 +36,7 @@ const WorkPAge = () => {
         <h3 className='w-[20rem] md:w-[24rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I have had an opportunity to work with <span className='text-white'>DCPR-AI</span> and <span className='text-white'>ElitCeler Technologies</span> as a Frontend developer and UX designer. I also do <span className='text-white'>freelancing</span> occassionaly and, participate in <span className='text-white'>Hackathons</span>. I actively contribute to <span className='text-white'>open-source</span> development and I was a part of <span className='text-white'>Girl Script Summer of Code</span>.</h3>
       </div>
       <div className='mt-20 md:mt-36 lg:mt-64 flex flex-col justify-center items-center'>
-        <h1 className="pb-3 text-3xl md:text-3xl lg:text-5xl text-white font-bold mt-20 md:mt-12 lg:mt-4">Projects I'm happy about</h1>
+        <h1 className="pb-3 text-3xl md:text-3xl lg:text-5xl text-white font-bold mt-20 md:mt-12 lg:mt-4">Projects I am happy about</h1>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'><span className='text-white font-bold'>MedBot.AI</span> an application that helps urban working class and, old people as their Medical Assistant powered by AI 🧑‍⚕️💻</h3>
             <Image src={medbot} className='object-contain md:object-cover lg:object-cover mt-4 h-96 w-80 md:w-[42rem] lg:w-[52rem]'/>

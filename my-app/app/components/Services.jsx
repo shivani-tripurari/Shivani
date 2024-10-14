@@ -20,7 +20,7 @@ const Services = () => {
             workText='PS'
             full='Avid Problem Solver'
             items={[
-                "I'm a fast learner and try to make the best use of avaiilable resources"
+                "I am a fast learner and try to make the best use of avaiilable resources"
             ]}      
         />
         <Work 
@@ -40,7 +40,7 @@ const Services = () => {
        <div className='flex justify-center items-center'>
        <div className='group flex flex-row justify-center items-center gap-x-3 mt-20  mb-1 h-12 w-[90%] md:w-[90%] fold:w-[90%] ipad-air:w-[90%] xl:w-[93%]  border-2 border-[#fefefe] bg-[#fefefe]'>
             <h3 className='transition duration-500 ease-in-out text-[#171717] text-base font-bold group-hover:scale-125'>Know more</h3>
-            <Image src={redirect2} className='transition duration-500 ease-in-out group-hover:scale-125 group-hover:translate-x-2' />
+            <Image src={redirect2} alt='redirect' className='transition duration-500 ease-in-out group-hover:scale-125 group-hover:translate-x-2' />
         </div>
        </div>
     </div>

@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="relative mt-40">
       
         <Link href="https://linktr.ee/shivanitripurari">
-          <Image src={avatar} className="transition ease-in-out duration-300 delay-150 h-80 w-80 absolute bottom-72 md:bottom-40 lg:bottom-44 z-40 hover:-translate-y-[7rem] md:hover:-translate-y-[7rem] lg:hover:-translate-y-[7rem] " />
+          <Image src={avatar} alt='avatar' className="transition ease-in-out duration-300 delay-150 h-80 w-80 absolute bottom-72 md:bottom-40 lg:bottom-44 z-40 hover:-translate-y-[7rem] md:hover:-translate-y-[7rem] lg:hover:-translate-y-[7rem] " />
         </Link>
     
       <div className = "relative pt-10 pb-20 bg-[#0E100F] border-t-2 border-white z-50">
@@ -23,11 +23,11 @@ const Footer = () => {
             <h2>Tripurari</h2>
         </div>
         <div className="pr-2 mr-1 md:mr-40 lg:mr-40 h-40 w-10 flex flex-row justify-center gap-x-7 items-center">
-            <Image src={github} className="h-10 w-10"/>
-            <Image src={dribble} className="h-7 w-7"/>
-            <Image src={medium} className='h-7 w-7'/>
-            <Image src={linkedin} className="h-7 w-7"/>
-            <Image src={mail} className='h-10 w-10'/>
+            <Image src={github} alt='git' className="h-10 w-10"/>
+            <Image src={dribble} alt='drib' className="h-7 w-7"/>
+            <Image src={medium} alt='med' className='h-7 w-7'/>
+            <Image src={linkedin} alt='link' className="h-7 w-7"/>
+            <Image src={mail} alt='mail' className='h-10 w-10'/>
         </div>
         </div>
         <div className="flex justify-center items-center">
