@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='relative z-50 p-7 flex justify-between items-center'>
-        <Link href='/'><Image src={logo} className='h-20 w-24'/></Link>
+        <Link href='/'><Image src={logo} alt='logo' className='h-20 w-24'/></Link>
         <Hamburger
           color="white"
           size={28}
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <Link href='/'><li className='p-7 hover:scale-125'>Home</li></Link>
                 <Link href='about'><li className='p-7 hover:scale-125'>About</li></Link>
                 <Link href='work'><li className='p-7 hover:scale-125'>Work</li></Link>
-                <Link href='/'><li className='p-7 hover:scale-125'>Let's Collaborate</li></Link>
+                <Link href='/'><li className='p-7 hover:scale-125'>Lets Collaborate</li></Link>
               </ul>
             </main>
           </div>

@@ -32,7 +32,7 @@ const Hero = () => {
         animate={{ opacity: 1, scale:1, rotate:-5 }} // Animates to its final position with full opacity
         transition={{ease: "easeOut",type:"spring",stiffness:"70",damping:"40",  duration: 1.7 }} // Adjust the duration for a smooth effect
          >
-            <Image src={lines} className="h-full w-full"/>
+            <Image src={lines} alt='lines' className="h-full w-full"/>
         </motion.div>
         <div className="ml-10 lg:ml-24 text-7xl md:text-8xl mt-40 lg:mt-10 lg:text-9xl font-bold">
             <AnimatedTextCharacter text="Shivani" />
@@ -43,19 +43,19 @@ const Hero = () => {
         animate={{ opacity: 1, y: "-10vh" }} // Animates to its final position with full opacity
         transition={{ease: "easeOut",type:"spring", duration: 2.1 }} // Adjust the duration for a smooth effect
         whileHover={{ rotate: -45 }} >
-            <Image src={music}/>
+            <Image src={music} alt='music'/>
         </motion.div>
         </div>
 
         <div className="absolute bottom-20 right-0 m-7 h-40 w-10 flex flex-col justify-evenly items-center">
             <Link href="https://github.com/shivani-tripurari">
-                <Image src={github} className="h-10 w-10"/>
+                <Image src={github} alt='git' className="h-10 w-10"/>
             </Link>
             <Link href="https://dribbble.com/shivtrip07">
-                <Image src={dribble} className="h-7 w-7"/>
+                <Image src={dribble} alt='drib' className="h-7 w-7"/>
             </Link>
             <Link href="https://www.linkedin.com/in/shivani-tripurari-a7962621b/">
-                <Image src={linkedin} className="h-7 w-7"/>
+                <Image src={linkedin} alt='link' className="h-7 w-7"/>
             </Link>
         </div>
 
