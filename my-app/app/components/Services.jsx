@@ -11,39 +11,30 @@ const Services = () => {
         </div>
         <Work 
             workText='DEV'
-            full='Aspiring Full Stack Developer'
+            full='Full Stack Development'
             items={[
-                "T-shirts & Hoodies",
-                "Welcome kits",
-                "Keychains",
-                "Sipper bottles",
-                "Festival kits"
+                "As an aspiring Full Stack Developer, I bring a unique blend of skills and creativity to the table"
             ]}      
         />
         <Work 
             workText='PS'
             full='Avid Problem Solver'
             items={[
-                "Boards",
-                "Flexs",
-                "Welcome archs",
+                "I'm a fast learner and try to make the best use of avaiilable resources"
             ]}      
         />
         <Work 
             workText='DES'
             full='Someone with a knack of Designing'
             items={[
-                "Logos",
-                "Id cards",
-                "Certificates",
-                "All types of designing"
+                "I firmly believe that the success of a product truly depends on the user experience"
             ]}      
         />
         <Work 
             workText='CW'
             full='I Draw, Write and, Cook'
             items={[
-                "As an aspiring Full Stack Developer, I bring a unique blend of skills and creativity to the table. Specializing in frontend development and UX design, I am passionate about crafting seamless user experiences that resonate with users. "
+                " I enjoy cooking when I have time, and doodling keeps me going through my schedule."
             ]}      
         />
        <div className='flex justify-center items-center'>

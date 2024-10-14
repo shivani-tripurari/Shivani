@@ -13,17 +13,18 @@ import Infinite from './Infinite.jsx';
 import Skills from './Skills.jsx';
 import Services from './Services.jsx';
 import Intro from './Intro.jsx';
+import Footer from './Footer.jsx';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
     <>
-    <div>
+    <div className="overflow-hidden">
         <Navbar/>
         
         <div >
         <motion.div
-         className="absolute h:4 w:4 md:h-20 md:w-20 lg:h-40 lg:w-40 left-[28vh] top-[24vh] 
+         className="absolute h:2 w:2 md:h-16 md:w-16 lg:h-40 lg:w-40 left-[28vh] top-[24vh] 
       md:left-[25vh] md:top-[8vh]   
       lg:left-[68vh] lg:top-[20vh]"
         initial={{ opacity: 0, scale:0 }} // Starts 100px below its final position with 0 opacity
@@ -55,6 +56,7 @@ const Hero = () => {
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">front-end developer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">ux designer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">finance enthusiast</h3>
+            <button className="transition ease-in-out duration-300 delay-150 mt-4 md:mt-7 lg:mt-16 h-10 w-40  text-black font-bold bg-white rounded-lg hover:shadow-btn-sha hover:bg-[#0E100F] hover:border-2 hover:border-[#b89091] hover:text-white">Resume</button>
         </div>
           
     </div>
@@ -62,6 +64,7 @@ const Hero = () => {
     <Infinite/>  
     <Skills/>
     <Services/>
+    <Footer/>
     </>
   )
 }
