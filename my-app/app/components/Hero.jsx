@@ -15,6 +15,7 @@ import Services from './Services.jsx';
 import Intro from './Intro.jsx';
 import Footer from './Footer.jsx';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
         
         <div >
         <motion.div
-         className="absolute h:2 w:2 md:h-16 md:w-16 lg:h-40 lg:w-40 left-[28vh] top-[24vh] 
+         className="hidden md:hidden lg:block absolute h:2 w:2 md:h-8 md:w-8 lg:h-40 lg:w-40 left-[28vh] top-[24vh] 
       md:left-[25vh] md:top-[8vh]   
       lg:left-[68vh] lg:top-[20vh]"
         initial={{ opacity: 0, scale:0 }} // Starts 100px below its final position with 0 opacity
@@ -47,16 +48,22 @@ const Hero = () => {
         </div>
 
         <div className="absolute bottom-20 right-0 m-7 h-40 w-10 flex flex-col justify-evenly items-center">
-            <Image src={github} className="h-10 w-10"/>
-            <Image src={dribble} className="h-7 w-7"/>
-            <Image src={linkedin} className="h-7 w-7"/>
+            <Link href="https://github.com/shivani-tripurari">
+                <Image src={github} className="h-10 w-10"/>
+            </Link>
+            <Link href="https://dribbble.com/shivtrip07">
+                <Image src={dribble} className="h-7 w-7"/>
+            </Link>
+            <Link href="https://www.linkedin.com/in/shivani-tripurari-a7962621b/">
+                <Image src={linkedin} className="h-7 w-7"/>
+            </Link>
         </div>
 
-        <div className="absolute bottom-44 md:bottom-20 lg:bottom-20 left-0 h-[2px] bg-[#B89091]/20 w-[70%] flex flex-col md:flex-row lg:flex-row items-center justify-evenly">
+        <div className="absolute bottom-56 md:bottom-52 lg:bottom-20 left-0 h-[2px] bg-[#B89091]/20 w-[70%] flex flex-col md:flex-row lg:flex-row items-center justify-evenly">
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">front-end developer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">ux designer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">finance enthusiast</h3>
-            <button className="transition ease-in-out duration-300 delay-150 mt-4 md:mt-7 lg:mt-16 h-10 w-40  text-black font-bold bg-white rounded-lg hover:shadow-btn-sha hover:bg-[#0E100F] hover:border-2 hover:border-[#b89091] hover:text-white">Resume</button>
+            <button className="p-2 transition ease-in-out duration-300 delay-150 mt-4 md:mt-7 lg:mt-16 h-10 w-40  text-black font-bold bg-white rounded-sm mg:rounded-lg lg:rounded-lg hover:shadow-btn-sha hover:bg-[#0E100F] hover:border-2 hover:border-[#b89091] hover:text-white">Resume</button>
         </div>
           
     </div>

@@ -14,10 +14,10 @@ const Work = ({ workText = "",full="", items = [] }) => {
           <Image src={star2} className="hidden h-8 w-8 absolute bottom-16 left-40 group-hover:block" />
           <Image src={redirect} className="hidden h-6 w-6 absolute top-4 right-4 md:right-16 lg:right-20 group-hover:block"/>
         </div>
-        <div className="text-transparent transition duration-500 ease-in-out font-outline-2 font-semibold text-[8rem] md:text-[16rem] lg:text-[16rem] mx-7 group-hover:scale-[1.7] group-hover:font-bold group-hover:-translate-x-8 md:group-hover:-translate-x-28 lg:group-hover:-translate-x-28 group-hover:font-outline-1">{workText}</div>
+        <div className="text-transparent transition duration-500 ease-in-out font-outline-2 font-semibold text-[8rem] md:text-[8rem] lg:text-[16rem] mx-7 group-hover:scale-[1.7] group-hover:font-bold group-hover:-translate-x-8 md:group-hover:-translate-x-28 lg:group-hover:-translate-x-28 group-hover:font-outline-1">{workText}</div>
         <div className="flex flex-col justify-between  items-left">
-          <h1 class="transition duration-500 ease-in-out text-2xl md:text-4xl lg:text-4xl text-[#fefefe] font-bold group-hover:scale-75  group-hover:font-outline-2 group-hover:text-transparent">{full}</h1>
-          <ul className="hidden md:block lg:block transition duration-500 ease-in-out text-base md:text-lg lg:text-lg text-slate-200 ml-7 pt-7 group-hover:scale-75 group-hover:text-slate-300">
+          <h1 class="transition duration-500 ease-in-out text-2xl md:text-2xl lg:text-4xl text-[#fefefe] font-bold group-hover:scale-75  group-hover:font-outline-2 group-hover:text-transparent">{full}</h1>
+          <ul className="hidden md:hidden lg:block transition duration-500 ease-in-out text-base md:text-lg lg:text-lg text-slate-200 ml-7 pt-7 group-hover:scale-75 group-hover:text-slate-300">
             {items.map((item,index)=>(
                 <p className="w-3/4" key={index}>{item}</p>
             ))}

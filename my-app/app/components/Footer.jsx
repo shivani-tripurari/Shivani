@@ -7,11 +7,14 @@ import linkedin from '../assets/linkedin.svg';
 import medium from '../assets/medium.svg';
 import mail from '../assets/mail.svg';
 import { motion } from 'framer-motion'
+import Link from 'next/link';
 const Footer = () => {
   return (
     <div className="relative mt-40">
       
-        <Image src={avatar} className="transition ease-in-out duration-300 delay-150 h-80 w-80 absolute bottom-72 md:bottom-40 lg:bottom-44 z-40 hover:-translate-y-[7rem] md:hover:-translate-y-[7rem] lg:hover:-translate-y-[7rem] " />
+        <Link href="https://linktr.ee/shivanitripurari">
+          <Image src={avatar} className="transition ease-in-out duration-300 delay-150 h-80 w-80 absolute bottom-72 md:bottom-40 lg:bottom-44 z-40 hover:-translate-y-[7rem] md:hover:-translate-y-[7rem] lg:hover:-translate-y-[7rem] " />
+        </Link>
     
       <div className = "relative pt-10 pb-20 bg-[#0E100F] border-t-2 border-white z-50">
         <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
@@ -19,7 +22,7 @@ const Footer = () => {
             <h2>Shivani </h2>
             <h2>Tripurari</h2>
         </div>
-        <div className="pr-2 mr-1 md:mr-20 lg:mr-40 h-40 w-10 flex flex-row justify-center gap-x-7 items-center">
+        <div className="pr-2 mr-1 md:mr-40 lg:mr-40 h-40 w-10 flex flex-row justify-center gap-x-7 items-center">
             <Image src={github} className="h-10 w-10"/>
             <Image src={dribble} className="h-7 w-7"/>
             <Image src={medium} className='h-7 w-7'/>

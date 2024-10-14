@@ -15,7 +15,7 @@ const Intro = () => {
       <div className="absolute top-[32rem]  w-5/6 text-center flex flex-col justify-center items-center ">
         <h3 className="text-black/80 font-regular   text-xl md:text-3xl lg:text-4xl">As a child, I always approached daily problems with creativity, which has evolved into a passion for <span className="italic text-purple-700">blending technology and creativity</span> to find innovative solutions.I now look forward to bringing a <span className="italic text-purple-700">Designer's perspective</span> and a <span className = "italic text-purple-700">Developer's expertise</span> to every project I take on.</h3>
       </div>
-      <div className="transition ease-in-out delay-150 hidden md:block lg:block absolute top-[48rem]  rounded-3xl w-4/5 h-80 bg-white flex flex-row justify-center items-center gap-x-20 hover:shadow-custom-black">
+      <div className="transition ease-in-out delay-150 hidden md:hidden lg:block absolute top-[48rem]  rounded-3xl w-4/5 h-80 bg-white flex flex-row justify-center items-center gap-x-20 hover:shadow-custom-black">
         <div className="m-10 bg-transparent h-[70%] w-[40%]">
           <Image src={git} className="rounded-2xl h-full w-full object-contain mr-10 "/>
         </div>
