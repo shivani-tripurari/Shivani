@@ -39,15 +39,15 @@ const WorkPAge = () => {
         <h1 className="pb-3 text-3xl md:text-3xl lg:text-5xl text-white font-bold mt-20 md:mt-12 lg:mt-4">Projects I am happy about</h1>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'><span className='text-white font-bold'>MedBot.AI</span> an application that helps urban working class and, old people as their Medical Assistant powered by AI 🧑‍⚕️💻</h3>
-            <Image src={medbot} alt='med' className='object-contain md:object-cover lg:object-cover mt-4 h-96 w-80 md:w-[42rem] lg:w-[52rem]'/>
+            <Image src={medbot} alt='med' className='object-contain md:object-cover lg:object-cover mt-1 md:mt-4 lg:mt-4 h-40 md:h-96 lg:h-96 w-80 md:w-[42rem] lg:w-[52rem]'/>
           </div>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'><span className='text-white font-bold'>Amani</span> a web application that aims to help the underprivileged in Africa throug the digital reforms so they can bridge the gap and transform their lives💻🎯</h3>
-            <Image src={amani} alt='ama' className='object-contain md:object-cover lg:object-cover mt-4 h-96 w-80 md:w-[42rem] lg:w-[52rem]'/>
+            <Image src={amani} alt='ama' className='object-contain md:object-cover lg:object-cover mt-4 h-40 md:h-96 lg:h-96 w-80 md:w-[42rem] lg:w-[52rem]'/>
           </div>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'><span className='text-white font-bold'>Level Super Mind - Case study </span>this case study explores the issues encountered while using Level supermind and proposes solutions to enhance the user experience 📑👩‍💻</h3>
-            <Image src={level} alt='lev' className='object-contain md:object-cover lg:object-cover mt-4 h-96 w-80 md:w-[42rem] lg:w-[52rem]'/>
+            <Image src={level} alt='lev' className='object-contain md:object-cover lg:object-cover mt-4 h-40 md:h-96 lg:h-96 w-80 md:w-[42rem] lg:w-[52rem]'/>
           </div>
       </div>
       <Footer/>
