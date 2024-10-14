@@ -7,7 +7,7 @@ const Services = () => {
     <div className='mt-40 mb-20 pt-20 pb-64  bg-custom-image bg-cover bg-center bg-no-repeat'>
         <div className='pt-10 p-7 flex flex-col justify-center items-center'>
             <h1 className='pt-10 text-white/90 font-bold text-5xl p-3'>So, What do I do?</h1>
-            <h3 className='text-white/70 font-regular text-xl p-3'>showcasing the unique skills and insights that enhance every collaboration..</h3>
+            <h3 className='text-white/70 font-regular text-xl p-3'>I develop, design, sleep, cook, meditate and eat ice-cream. </h3>
         </div>
         <Work 
             workText='DV'
