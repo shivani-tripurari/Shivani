@@ -10,7 +10,7 @@ const Services = () => {
             <h3 className='text-white/70 font-regular text-xl p-3'>showcasing the unique skills and insights that enhance every collaboration..</h3>
         </div>
         <Work 
-            workText='DEV'
+            workText='DV'
             full='Full Stack Development'
             items={[
                 "As an aspiring Full Stack Developer, I bring a unique blend of skills and creativity to the table"
@@ -24,7 +24,7 @@ const Services = () => {
             ]}      
         />
         <Work 
-            workText='DES'
+            workText='DS'
             full='Someone with a knack of Designing'
             items={[
                 "I firmly believe that the success of a product truly depends on the user experience"
