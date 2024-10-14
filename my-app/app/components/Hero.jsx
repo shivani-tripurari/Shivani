@@ -34,7 +34,7 @@ const Hero = () => {
          >
             <Image src={lines} alt='lines' className="h-full w-full"/>
         </motion.div>
-        <div className="ml-10 lg:ml-24 text-7xl md:text-8xl mt-40 lg:mt-10 lg:text-9xl font-bold">
+        <div className="ml-10 lg:ml-24 text-7xl md:text-8xl mt-28 lg:mt-10 lg:text-9xl font-bold">
             <AnimatedTextCharacter text="Shivani" />
             <AnimatedTextCharacter text="Tripurari" />
         </div>
@@ -47,7 +47,7 @@ const Hero = () => {
         </motion.div>
         </div>
 
-        <div className="absolute bottom-20 right-0 m-7 h-40 w-10 flex flex-col justify-evenly items-center">
+        <div className="absolute bottom-16 right-0 m-7 h-40 w-10 flex flex-col justify-evenly items-center">
             <Link href="https://github.com/shivani-tripurari">
                 <Image src={github} alt='git' className="h-10 w-10"/>
             </Link>
@@ -59,7 +59,7 @@ const Hero = () => {
             </Link>
         </div>
 
-        <div className="absolute bottom-56 md:bottom-52 lg:bottom-20 left-0 h-[2px] bg-[#B89091]/20 w-[70%] flex flex-col md:flex-row lg:flex-row items-center justify-evenly">
+        <div className="absolute bottom-48 md:bottom-52 lg:bottom-20 left-0 h-[2px] bg-[#B89091]/20 w-[70%] flex flex-col md:flex-row lg:flex-row items-center justify-evenly">
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">front-end developer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">ux designer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">finance enthusiast</h3>
