@@ -20,15 +20,15 @@ const WorkPAge = () => {
         <h1 className="pb-3 text-3xl md:text-3xl lg:text-5xl text-white font-bold mt-20 md:mt-12 lg:mt-4">What do I do?</h1>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I develop websites using the <span className="text-white">MERN stack</span> and craft <span className="text-white">beautiful and functional frontend experiences</span> using <span className="text-white">React Js, Next Js, TailwindCSS.</span> I am also a proficient <span className='text-white'>JavaScript</span> developer.</h3>
-            <Image src={web} alt='web' className=' mt-4 h-44 w-80 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
+            <Image src={web} alt='web' className='object-cover mt-4 h-80 w-96 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
           </div>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I design and protoype websites, mobile apps using <span className="text-white">Figma,</span> I have used some design tools like <span className="text-white">Adobe Illustrator, Canva, Flutter Flow</span>, etc. With an eye for <span className="text-white">designing</span> I am dedicated to create <span className='text-white'>smooth and intutive User-experiences</span>.</h3>
-            <Image src={des} alt='des' className=' mt-4 h-44 w-80 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
+            <Image src={des} alt='des' className='object-cover mt-4 h-80 w-96 md:h-[40rem] md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
           </div>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>The <span className='text-white'>user experience</span> of a product can make or break a <span className='text-white'>business</span>. I am passionate about <span className='text-white'>writing case studies</span> and analyzing companies and their products to identify areas for improvement, refining those insights into actionable solutions that <span className='text-white'>elevate both user satisfaction and business success</span>. </h3>
-            <Image src={ux} alt='ux' className=' mt-4 h-44 w-80 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
+            <Image src={ux} alt='ux' className='object-cover mt-4 h-80 w-80 md:h-96 md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
           </div>
       </div>
       <div className='mt-20 flex flex-col md:flex-col lg:flex-row justify-evenly items-center'>
