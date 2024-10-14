@@ -12,9 +12,9 @@ const Footer = () => {
   return (
     <div className="relative mt-40">
       
-        <Link href="https://linktr.ee/shivanitripurari">
+        
           <Image src={avatar} alt='avatar' className="transition ease-in-out duration-300 delay-150 h-80 w-80 absolute bottom-72 md:bottom-40 lg:bottom-44 z-40 hover:-translate-y-[7rem] md:hover:-translate-y-[7rem] lg:hover:-translate-y-[7rem] " />
-        </Link>
+        
     
       <div className = "relative pt-10 pb-20 bg-[#0E100F] border-t-2 border-white z-50">
         <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
