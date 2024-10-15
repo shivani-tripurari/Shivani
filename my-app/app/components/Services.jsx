@@ -2,6 +2,7 @@ import React from 'react'
 import Work from './Work.jsx';
 import Image from 'next/image';
 import redirect2 from '../assets/redirect.svg'
+import Link from 'next/link';
 const Services = () => {
   return (
     <div className='mt-40 mb-20 pt-20 pb-64  bg-custom-image bg-cover bg-center bg-no-repeat'>
@@ -37,12 +38,14 @@ const Services = () => {
                 " I enjoy cooking when I have time, and doodling keeps me going through my schedule."
             ]}      
         />
+       <Link href="/work">
        <div className='flex justify-center items-center'>
        <div className='group flex flex-row justify-center items-center gap-x-3 mt-20  mb-1 h-12 w-[90%] md:w-[90%] fold:w-[90%] ipad-air:w-[90%] xl:w-[93%]  border-2 border-[#fefefe] bg-[#fefefe]'>
             <h3 className='transition duration-500 ease-in-out text-[#171717] text-base font-bold group-hover:scale-125'>Know more</h3>
             <Image src={redirect2} alt='redirect' className='transition duration-500 ease-in-out group-hover:scale-125 group-hover:translate-x-2' />
         </div>
        </div>
+       </Link>
     </div>
   )
 }

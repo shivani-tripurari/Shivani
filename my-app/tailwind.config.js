@@ -172,7 +172,7 @@ module.exports = {
     },
       backgroundImage: theme => ({
         'custom-image': "url('../app/assets/bg.svg')",
-        'paper-image' :"url('../app/assets/paperBg.svg')",
+        'paper-image' :"url('../app/assets/introNew.svg')",
         'tape-image' :"url('../app/assets/tape.svg')",
        
         // add more images as needed
