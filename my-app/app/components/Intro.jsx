@@ -6,8 +6,39 @@ import redirect from '../assets/redirect.svg';
 
 const Intro = () => {
   return (
-    
-    <div className="relative flex justify-center items-center mt-10 h-[100vh] lg:h-[200vh] bg-paper-image bg-cover bg-center bg-no-repeat">
+    <>
+      <div className='pt-32 flex flex-col justify-center items-center mt-40 pt-10 pb-20 bg-paper-image bg-cover bg-center bg-no-repeat '>
+        <div className='flex flex-col justify-center items-center'>
+          <h2 className="pt-20 text-black text-4xl md:text-5xl lg:text-6xl ">Hello there!</h2>
+          <h3 className="text-center text-black w-2/3 text-2xl md:text-3xl lg:text-4xl">If you are someone whose goal is to create meaningful products, <span className="font-bold text-black bg-tape-image bg-cover bg-center bg-no-repeat">scroll down</span></h3>
+        </div>
+        <div>
+          <div className='mt-7 flex flex-col md:flex-row lg:flex-row gap-y-7 md:gap-x-20 lg:gap-x-20 justify-center items-center'>
+          <div className='flex flex-col justify-start items-center mt-3 transition ease-in-out delay-150 hover:shadow-custom-black pt-3 h-80 w-64 rounded-3xl border-2 border-black bg-white'>
+            <div className='mt-7 h-40 w-40 bg-black rounded-2xl'>
+              <Image src={git} alt='gitProfile' className='h-full w-full object-contain rounded-2xl border-2 border-black'/>
+              <h3 className='pt-3 text-black text-lg font-bold'>Check my Github</h3>
+              <button className='w-32 ml-3 mt-1 p-3 bg-black text-white font-bold text-sm rounded-2xl uppercase'>Explore</button>
+            </div>
+          </div>
+          <div className='flex flex-col justify-start items-center mt-3 transition ease-in-out delay-150 hover:shadow-custom-black pt-3 h-80 w-64 rounded-3xl border-2 border-black bg-white'>
+            <div className='mt-7 h-40 w-40 bg-black rounded-2xl'>
+              <Image src={git} alt='gitProfile' className='h-full w-full object-contain rounded-2xl border-2 border-black'/>
+              <h3 className='pt-3 text-black text-lg font-bold'>Check my Github</h3>
+              <button className='w-32 ml-3 mt-1 p-3 bg-black text-white font-bold text-sm rounded-2xl uppercase'>Explore</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </>
+      )
+}
+
+export default Intro
+
+{/* 
+  <div className="relative flex justify-center items-center mt-10 h-[100vh] lg:h-[200vh] bg-paper-image bg-cover bg-center bg-no-repeat">
       <div className="absolute top-72  flex flex-col justify-center items-center">
         <h2 className=" text-black text-4xl md:text-5xl lg:text-6xl ">Hello there!</h2>
         <h3 className="text-center text-black w-2/3 text-2xl md:text-3xl lg:text-4xl">If you are someone whose goal is to create meaningful products, <span className="font-bold text-black bg-tape-image bg-cover bg-center bg-no-repeat">scroll down</span></h3>
@@ -26,7 +57,5 @@ const Intro = () => {
         </div>
       </div>
     </div>
-  )
-}
 
-export default Intro
+  */}

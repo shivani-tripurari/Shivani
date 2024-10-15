@@ -15,7 +15,8 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       boxShadow: {
-        'custom-black': '#febe0f 5px 5px, #ffa4bf 10px 10px, #fe6622 15px 15px, #4580b2 20px 20px, #0aa56b 25px 25px',
+        'custom-color': '#febe0f 5px 5px, #ffa4bf 10px 10px, #fe6622 15px 15px, #4580b2 20px 20px, #0aa56b 25px 25px',
+        'custom-black': '#121212 5px 5px',
         'btn-sha' : '#b89091 5px 5px'
       },
       animation: {
