@@ -13,7 +13,9 @@ const Footer = () => {
     <div className="relative mt-40">
       
         
-          <Image src={avatar} alt='avatar' className="transition ease-in-out duration-300 delay-150 h-80 w-80 absolute bottom-72 md:bottom-40 lg:bottom-44 z-40 hover:-translate-y-[7rem] md:hover:-translate-y-[7rem] lg:hover:-translate-y-[7rem] " />
+          <Link href='https://buymeacoffee.com/shivaniiii'>
+            <Image src={avatar} alt='avatar' className="transition ease-in-out duration-300 delay-150 h-80 w-80 absolute bottom-72 md:bottom-40 lg:bottom-44 z-40 hover:-translate-y-[7rem] md:hover:-translate-y-[7rem] lg:hover:-translate-y-[7rem] " />
+          </Link>
         
     
       <div className = "relative pt-10 pb-20 bg-[#0E100F] border-t-2 border-white z-50">
