@@ -24,12 +24,12 @@ const Footer = () => {
             <h2>Shivani </h2>
             <h2>Tripurari</h2>
         </div>
-        <div className="pr-2 mr-1 md:mr-40 lg:mr-40 h-40 w-10 flex flex-row justify-center gap-x-7 items-center">
-            <Image src={github} alt='git' className="h-10 w-10"/>
-            <Image src={dribble} alt='drib' className="h-7 w-7"/>
-            <Image src={medium} alt='med' className='h-7 w-7'/>
-            <Image src={linkedin} alt='link' className="h-7 w-7"/>
-            <Image src={mail} alt='mail' className='h-10 w-10'/>
+        <div className="pr-2 mr-1 md:mr-40 lg:mr-40 h-40  flex flex-row justify-center gap-x-7 items-center">
+            <Link href='https://github.com/shivani-tripurari'><Image src={github} alt='git' className="h-10 w-10"/></Link>
+            <Link href='https://dribbble.com/shivtrip07'><Image src={dribble} alt='drib' className="h-7 w-7"/></Link>
+            <Link href='https://medium.com/@shivanitripurari07'><Image src={medium} alt='med' className='h-7 w-7'/></Link>
+            <Link href='https://www.linkedin.com/in/shivani-tripurari-a7962621b/'><Image src={linkedin} alt='link' className="h-7 w-7"/></Link>
+            <Link href="mailto:tripurarishivani12@gmail.com"><Image src={mail} alt='mail' className='h-10 w-10'/></Link>
         </div>
         </div>
         <div className="flex justify-center items-center">
