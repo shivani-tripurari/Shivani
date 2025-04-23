@@ -63,7 +63,7 @@ const Hero = () => {
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">front-end developer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">ux designer</h3>
             <h3 className="pt-4 md:mt-7 text-lg md:pt-12 lg:pt-12 color-gray-700">finance enthusiast</h3>
-            <Link href="https://drive.google.com/file/d/1QWiE3xP0ElmNtBD0Oet7hgkcnQQFUJDD/view?usp=drive_link">
+            <Link href="https://drive.google.com/file/d/1Iy6aKIDZ0GEGM5CrFCM-1o7D2z47yXec/view?usp=sharing">
                 <button className="p-2 transition ease-in-out duration-300 delay-150 mt-4 md:mt-7 lg:mt-16 h-10 w-40  text-black font-bold bg-white rounded-sm mg:rounded-lg lg:rounded-lg hover:shadow-btn-sha hover:bg-[#0E100F] hover:border-2 hover:border-[#b89091] hover:text-white">Resume</button>
             </Link>
         </div>
