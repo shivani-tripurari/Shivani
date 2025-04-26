@@ -21,7 +21,7 @@ const WorkPAge = () => {
       </div>
       <div className='mt-10 flex flex-col justify-center items-center'>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
-            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'><span className='text-white font-bold'>CleanUp</span>✨☘️ a volunteering app's case study. While working on this project, I learned how useful surveys or short interviews can be, they helped me understand what users really needed.
+            <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'><span className='text-white font-bold'>CleanUp</span>✨☘️ a volunteering apps case study. While working on this project, I learned how useful surveys or short interviews can be, they helped me understand what users really needed.
             <br/><Link href="https://drive.google.com/file/d/1Ief1WSJ6xegqMct8SAKzZqvX1r4bi_A5/view?usp=drivesdk"><span className='text-white font-bold underline'>Link to my case study</span></Link> || {" "}
             <Link href="https://www.figma.com/community/file/1497635338896022722"><span className='text-white font-bold underline'>Link to Figma</span></Link>
             </h3>
