@@ -28,7 +28,7 @@ const Intro = () => {
             </div>
           </div>
           </Link>
-          <Link href='https://dribbble.com/shivtrip07'>
+          <Link href='/design'>
           <div className='flex flex-col justify-start items-center mt-3 transition ease-in-out delay-150 hover:shadow-custom-black pt-3 h-80 w-64 rounded-3xl border-2 border-black bg-white'>
             <div className='mt-7 h-40 w-40 bg-white rounded-2xl'>
               <Image src={checkDes} alt='gitProfile' className='h-full w-full object-cover rounded-2xl border-2 border-black'/>

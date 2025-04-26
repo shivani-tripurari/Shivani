@@ -26,7 +26,7 @@ const WorkPAge = () => {
           </div>
           <div className='pt-10 pb-10 flex flex-col justify-center items-center'>
             <h3 className='w-[20rem] md:w-[36rem] lg:w-[43rem] p-3 text-justify text-white/60 text-lg md:text-xl lg:text-2xl font-regular'>I design and protoype websites, mobile apps using <span className="text-white">Figma,</span> I have used some design tools like <span className="text-white">Adobe Illustrator, Canva, Flutter Flow</span>, etc. With an eye for <span className="text-white">designing</span> I am dedicated to create <span className='text-white'>smooth and intutive User-experiences</span>.</h3>
-            <Link href="https://dribbble.com/following">
+            <Link href="https://dribbble.com/shivani_tr">
               <Image src={des} alt='des' className='object-cover mt-4 h-80 w-96 md:h-[40rem] md:w-[24rem] lg:h-96 lg:w-[44rem]'/>
             </Link>
           </div>

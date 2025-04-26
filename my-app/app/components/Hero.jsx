@@ -51,7 +51,7 @@ const Hero = () => {
             <Link href="https://github.com/shivani-tripurari">
                 <Image src={github} alt='git' className="h-10 w-10"/>
             </Link>
-            <Link href="https://dribbble.com/shivtrip07">
+            <Link href="https://dribbble.com/shivani_tr">
                 <Image src={dribble} alt='drib' className="h-7 w-7"/>
             </Link>
             <Link href="https://www.linkedin.com/in/shivani-tripurari-a7962621b/">
